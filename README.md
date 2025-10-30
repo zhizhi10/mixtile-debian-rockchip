@@ -10,8 +10,8 @@ sudo apt-get install docker.io
 ### 2. Build Docker image
 
 ```bash
-git clone https://github.com/mixtile-rockchip/build.git
-cd build
+git clone https://github.com/mixtile-rockchip/mixtile-debian-rockchip.git
+cd mixtile-debian-rockchip
 sudo docker build -t blade3-debian-env ./
 ```
 ```bash
